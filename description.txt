@@ -1,0 +1,62 @@
+Description:
+
+Create a simple command-line file management system using Python. You can interact with this system by creating, deleting, and listing files and directories. To make it more interesting, you can use decorators to log the actions performed and a SQLite database to keep track of the file system structure. Generators can help with listing files and directories efficiently.
+
+Features:
+
+Create a file or directory: Users can create a new file or directory in the system.
+
+Delete a file or directory: Users can delete an existing file or directory.
+
+List files and directories: Implement a generator function to efficiently list all the files and directories in the system.
+
+Logging: Use a decorator to log the actions performed on the system, such as file/directory creation and deletion.
+
+Database: Use an SQLite database to store the file system structure. You can have tables for files and directories, and keep track of their parent-child relationships.
+
+Tools and Libraries:
+
+os.path for managing file and directory paths.
+Python's sqlite3 library for working with SQLite databases.
+Decorators for logging actions.
+Generators for listing files and directories.
+Example Usage:
+
+Here's an example of how this file management system might be used:
+
+
+$ python file_manager.py
+
+1. Create a file
+2. Create a directory
+3. Delete a file
+4. Delete a directory
+5. List files and directories
+6. Exit
+
+Enter your choice: 1
+Enter file name: example.txt
+File created: example.txt
+
+Enter your choice: 2
+Enter directory name: my_directory
+Directory created: my_directory
+
+Enter your choice: 3
+Enter file name to delete: example.txt
+File deleted: example.txt
+
+Enter your choice: 5
+Listing files and directories:
+- my_directory
+
+Enter your choice: 6
+Exiting...
+Implementation Steps:
+
+Set up a basic command-line menu for user interaction.
+Implement functions to create, delete, and list files and directories.
+Use decorators to log actions like file creation, deletion, etc.
+Create an SQLite database to store the file system structure.
+Use a generator function to efficiently list files and directories.
+Combine all the components to build the file management system.
