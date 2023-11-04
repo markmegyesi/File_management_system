@@ -1,4 +1,4 @@
-from create import create_file, create_directory, full_list
+from create import create_file, create_directory, full_list, delete
 
 
 
@@ -28,13 +28,13 @@ def main():
             dir_name = input ("Enter the directory name: ")
             create_directory(dir_name)
         elif choice == '3':
-            pass
+            dir_name = input ("Enter the directory name: ")
+            file_name = input("Enter a file name: ")
+            delete(file_name, dir_name)
         elif choice == '4':
             dir_file_list= full_list()
             for i in dir_file_list:
                 print(i)
-                
-
         elif choice == '5':
             break
         else: 

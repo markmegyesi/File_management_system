@@ -12,7 +12,6 @@ List files and directories: Implement a generator function to efficiently list a
 
 Logging: Use a decorator to log the actions performed on the system, such as file/directory creation and deletion.
 
-Database: Use an SQLite database to store the file system structure. You can have tables for files and directories, and keep track of their parent-child relationships.
 
 Tools and Libraries:
 
@@ -57,6 +56,5 @@ Implementation Steps:
 Set up a basic command-line menu for user interaction.
 Implement functions to create, delete, and list files and directories.
 Use decorators to log actions like file creation, deletion, etc.
-Create an SQLite database to store the file system structure.
 Use a generator function to efficiently list files and directories.
 Combine all the components to build the file management system.
