@@ -2,6 +2,7 @@ import os
 from log import log_function_call
 
 
+
 @log_function_call
 def create_file(file_name,dir_name, text):
     file_path = f"Directories/{dir_name}/{file_name}.txt"
@@ -66,7 +67,5 @@ def full_list():
 
 if __name__ == "__main__" : 
      
-
     pass
-        
 

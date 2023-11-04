@@ -1,3 +1,5 @@
-f'Calling function: create_file' 
-Arguments: ('test7653', 'test', 'kfghalks'), {} 
-create_file returned: You created test7653.txt in test.
+Calling function: create_file 
+Arguments: ('test9123', 'test2', 'fdsjfasdkflgjfakfdsc') 
+create_file returned: You created test9123.txt in test2.Calling function: create_file 
+Arguments: ('tst98864', 'test', 'jkfdfjlésldghfivjndaf') 
+create_file returned: You created tst98864.txt in test.

@@ -12,8 +12,8 @@ def log_function_call(func):
         result = func(*args)
         logging.info(f'{func.__name__} returned: {result}')
         file_path = f"Log.txt"
-        with open(file_path, "x")as file:
-            file.write(f"Calling function: {func.__name__} \nArguments: {args} \n{func.__name__} returned: {result}")
+        with open(file_path, "a")as file:
+            file.write(f"\n-Calling function: {func.__name__} \n-Arguments: {args} \n-{func.__name__} returned: {result}")
         return result
     return wrapper
 
